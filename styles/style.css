@@ -10,7 +10,7 @@ html {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 96px 50px 94px;
+    padding: 92px 50px 94px 48px;
 }
 
 .header__logo-image {
@@ -80,7 +80,7 @@ html {
 
 .cover_title {
     position: relative;
-    padding: 150px 30px 0 45px;
+    padding: 160px 30px 0 50px;
     width: 100%;
     color: #FFF;
     font-weight: 700;
@@ -96,10 +96,12 @@ html {
 
 .text-center {
     text-align: center;
+    margin: 5px -7px 0 0;
 }
 
 .text-right {
     text-align: right;
+    margin: 5px -10px 0 0;
 }
 
 .cover__description {
@@ -108,7 +110,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 105px 50px 61px 45px;
+    padding: 100px 50px 48px 50px;
 }
 
 .cover__description-text {
@@ -218,8 +220,8 @@ html {
 
 .about__column {
     display: grid;
-    grid-template-columns: 334px 1fr;
-    margin: 120px 24px 0;
+    grid-template-columns: 359px 1fr;
+    margin: 120px 0 0 15px;
     justify-items: center;
 }
 
@@ -235,12 +237,12 @@ html {
 .about__logo-image {
     justify-content: center;
     align-items: center;
-    padding: 64px 45px 62px 46px;
+    padding: 64px 45px;
 }
 
 .about__title {
     display: block;
-    padding: 136px 0 100px;
+    padding: 136px 0 100px 8px;
     font-weight: 700;
     font-size: 40px;
     line-height: 1.17;
@@ -258,7 +260,7 @@ html {
 }
 
 .footer {
-    margin-top: 192px;
+    margin-top: 180px;
     padding: 0 50px 82px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
