@@ -309,16 +309,7 @@ html {
 
 .footer__links {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    place-items: center;
-}
-
-.footer__social-list-item:first-child {
-    justify-self: end;
-    margin-right: 16px;
-}
-
-.footer__social-list-item:nth-child(2) {
-    justify-self: center;
-    margin-left: 6px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 42px;
+    margin-left: 20px;
 }
